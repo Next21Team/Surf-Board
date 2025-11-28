@@ -232,7 +232,7 @@ create_or_get_board(iPlayer)
     if (g_iBoardEnt[iPlayer])
         return g_iBoardEnt[iPlayer]
 
-    new iBoardEnt = rg_create_entity("info_target", true)
+    new iBoardEnt = rg_create_entity("info_target")
     if (is_nullent(iBoardEnt))
         return 0
 
